@@ -1,0 +1,4 @@
+# This is used to comment code in Python
+print("Hello World") 
+
+# This output will display the phrase "Hello World" into the console's output. 
