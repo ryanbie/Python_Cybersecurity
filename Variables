@@ -12,3 +12,10 @@ data_id = "12345"
 print(data_id)
 data_id = "23456"
 print(data_id)
+
+# Practice
+username = "nzhao"
+old_username = username
+username = "zhao2"
+print("Previous username:", old_username)
+print("Current username:", username)
