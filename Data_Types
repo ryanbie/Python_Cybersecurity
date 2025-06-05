@@ -1,0 +1,16 @@
+# This is integers 
+print(1+1)
+
+# This is string data
+print("Hello World")
+
+# This is float data
+print(1.2+1.2)
+
+# This is boolean data
+print(9<2)
+print(9>2)
+
+# This is list data
+mylist = ['apple','banana','carrot']
+print(mylist)
