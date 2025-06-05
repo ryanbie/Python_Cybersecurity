@@ -1,0 +1,39 @@
+# Create a conditional
+operating_system = "OS 2"
+if operating_system == "OS 2":
+	print("Updates Needed")
+
+# Add an else statement
+operating_system = "OS 3"
+if operating_system == "OS 2":
+	print("Updates Needed")
+else: 
+	print("No Updates Needed")
+
+# Add an else if statement
+operating_system = "OS 3"
+if operating_system == "OS 1":
+	print("Updates Needed")
+elif operating_system == "OS 2":
+	print("Please update soon")
+elif operating_system == "OS 3":
+	print("No Updates Needed")
+
+# Add an else statment
+operating_system = "OS 3"
+if operating_system == "OS 1":
+	print("Updates Needed")
+elif operating_system == "OS 2":
+	print("Please update soon")
+elif operating_system == "OS 3":
+	print("No Updates Needed")
+else: 
+	print("Error")
+
+# Using an and statement
+if status >= 200 and status <= 226:
+	print("successful response")
+
+# Using an or statement
+if status == 100 or status == 102:
+	print("informational response")
