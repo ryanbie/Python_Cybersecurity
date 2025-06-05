@@ -1,0 +1,14 @@
+# This is a variable
+data_id = "12345"
+print(data_id)
+
+# This produces an error due to different data types
+data_id = "12345"
+numbers = 1
+print(data_id + numbers)
+
+# This reassigns a variable
+data_id = "12345"
+print(data_id)
+data_id = "23456"
+print(data_id)
