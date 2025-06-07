@@ -270,7 +270,7 @@ ip_addresses = ["192.168.142.245", "192.168.109.50", "192.168.86.232", "192.168.
 # Otherwise, display “IP address is not allowed”
 
 for i in ip_addresses:
-	if i in allow_list == ip_addresses:
+	if i in allow_list:
 		print("IP address is allowed")
 	else:
 		print("IP address is not allowed")
@@ -281,9 +281,9 @@ for i in ip_addresses:
 ----
 IP address is not allowed
 IP address is not allowed
+IP address is allowed
 IP address is not allowed
-IP address is not allowed
-IP address is not allowed
+IP address is allowed
 IP address is not allowed
 ----
 
@@ -336,7 +336,7 @@ ip_addresses = ["192.168.142.245", "192.168.109.50", "192.168.86.232", "192.168.
 # Otherwise, display “IP address is not allowed”
                
 for i in ip_addresses:
-	if i in allow_list == ip_addresses:
+	if i in allow:
 		print("IP address is allowed")
 	else:
 		print("IP adress is not allowed. Further investigation of login activity required")
