@@ -1,0 +1,6 @@
+# Define Basic Function
+def greet_employee():
+  print("Welcome, you are logged in!")
+
+# Call the function
+greet_employee():
