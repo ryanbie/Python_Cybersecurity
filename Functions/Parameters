@@ -1,0 +1,9 @@
+# Single Parameter
+def greet_employee(name):
+  print("Welcome", name)
+greet_employee("Ryan")
+
+# Multiple Parameters
+def greet_employee(first_name, last_name):
+  print("Welcome", first_name, last_name)
+greet_employee("Ryan", "Bie")
