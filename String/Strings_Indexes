@@ -13,3 +13,20 @@ print("Hello".upper())
 
 # Apply lower method to "Hello"
 print("Hello".lower())
+
+# Index
+"Hello"[1]
+
+# Extract a slice from a string
+print("Hello"[1:4])
+
+# Use the index string method
+print("Hello".index("e"))
+
+# Search for the character "l"
+print("Hello".index("l"))
+
+# Index find what you are looking for with one line of code
+# Immutable - cannot be changed after being assigned a value
+tshah_index = "tsnow, tshah, boreno - updated".index("tshah")
+print(tshash_index)
