@@ -1,0 +1,4 @@
+# Syntax Errors - invalid usage 
+# Logic Errors - might not cause error messages but cause unintended results (print statements are good to see what line of the code is function properly
+# Debugger lets you have breakpoint to find fixes in logic errors
+# Exceptions - program doesn't know how to access the code, such as mathematiclly impossible like divide by 0, incorrect data type usage
