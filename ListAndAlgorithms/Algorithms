@@ -1,0 +1,16 @@
+# Algorithm = set of rules/steps (that solve of problems)
+# Take an input from a problem, uses that input, and produces a solution through an output
+
+# 1. Use string slicing to extract the first 3 digits from one IP address
+IP = ["198.223.xx.xx", "198.101.xx.xx", "180.064.xx.xx", "192.168.xx.xx", "184.090.xx.xx"]
+
+address = "198.223.xx.xx"
+print(address[0:3])
+
+networks = []
+for address in IP: 
+  networks.append(address[0:3])
+print(networks)
+
+# 2. Use a loop to apply that solution to every IP address on the list
+
